@@ -1,8 +1,10 @@
-import ExpenseItem from "./Components/ExpenseItem";
+import MainExpenseItem from "./Components/MainExpense";
+
+import expenses from "./data/exampleData";
 
 function App() {
   return (
-    <ExpenseItem />
+    <MainExpenseItem data={expenses}/>
   );
 }
 
